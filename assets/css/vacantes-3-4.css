@@ -1,0 +1,72 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --color-header:#1E8449;
+    --background-boton: #166537; 
+    --hover-boton: #269253;
+    --tamaño-titulo: 30px;
+    --tamaño-vacante: 25px;
+    --tamaño-subtitulo: 20px;
+    --tamaño-sub: 18px;
+    --tamaño-parrafo: 17px;
+    --tamaño-boton: 15px;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: var(--font-family);
+}
+
+.boton button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background: var(--background-boton);
+    margin: 10px ;
+    
+}
+
+.boton button:hover{
+    background: var(--hover-boton);
+}
+
+.boton button a{
+    text-decoration: none;
+    color: white;
+    font-size: var(--tamaño-boton);
+}
+
+.title h1{
+    background-color: var(--color-header);
+    color: white;
+    text-align: center;
+    font-size: var(--tamaño-titulo);
+    margin-bottom: 20px;
+}
+
+.contenido{
+    margin: 20px;
+}
+
+.contenido ul{
+    margin-left: 20px;
+}
+
+.contenido h2{
+    font-size: var(--tamaño-vacante);
+}
+
+.contenido h3{
+    font-size: var(--tamaño-subtitulo);
+}
+
+.contenido h4{
+    font-size: var(--tamaño-sub);
+}
+
+.contenido p, li{
+    font-size: var(--tamaño-parrafo);
+}
