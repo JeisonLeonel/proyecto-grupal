@@ -7,13 +7,22 @@
     --tamaño-subtitulo: 20px;
     --tamaño-sub: 18px;
     --tamaño-parrafo: 17px;
+    --tamaño-boton: 15px;
+    
 }
 
 header nav {
     background-color: var(--color-header);
     display: flex;
 }
-
+header nav h1 {
+    font-weight: bold;
+    margin-right: 200px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
 
 body{
     font-family: var(--font-family);
@@ -39,6 +48,12 @@ body{
     font-size: var(--tamaño-titulo);
     margin-bottom: 20px;
 }
+
+.contenido img {
+    justify-content: center;
+
+}
+
 .contenido h3{
     font-size: var(--tamaño-subtitulo);
 }
