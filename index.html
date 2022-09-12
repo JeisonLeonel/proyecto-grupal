@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Noticias Team Ibague</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/pagina-principal.css">
     <!--Fuente-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +12,72 @@
 <body>
     <!--Header-->
     <header>
+        <nav> 
+            <img src="assets/img/img-header.png" alt="img-header">
+            <h1>Noticias Team Ibagué</h1>  
+        </nav>
+        
+        <div class="slider">
+                <scroll-conteiner class="slider-container">
+                    <scroll-page class="slider-slide" id="elemento 1">
+                        <img class="slider-image" src="assets/img/img-slider1.jpg" width="250px" height="250px"  alt="imagen1">
+                    </scroll-page>
+                    <scroll-page class="slider-slide" id="elemento 2">
+                        <img class="slider-image" src="assets/img/img-slider2.jpg" width="250px" height="250px"  alt="imagen2">
+                    </scroll-page>
+                </scroll-conteiner>
 
+                <div class="list-botones">
+                    <a class="slider-item" href="#elemento 1"></a>
+                    <a class="slider-item" href="#elemento 2"></a>
+                </div>
+        </div>        
     </header>
     <!--Contenido-->
     <main>
+        <div class="noticia">
+            <h1>Titulo</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae sequi deserunt ut 
+            saepe sunt possimus ab modi mollitia corporis perferendis dolor alias repellendus, 
+            assumenda placeat architecto delectus exercitationem adipisci!
+            <a href="paginas/noticia-principal1.html">Ver mas</a>
+        </div>
+        <div class="noticia">
+            <h1>Titulo</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae sequi deserunt ut 
+            saepe sunt possimus ab modi mollitia corporis perferendis dolor alias repellendus, 
+            assumenda placeat architecto delectus exercitationem adipisci!
+            <a href="paginas/noticia-principal2.html">Ver mas</a>
+        </div>
+        <section>
+            <div class="noticia-secundaria">
+                <h1>Titulo</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae sequi deserunt ut 
+                saepe sunt possimus ab modi mollitia corporis perferendis dolor alias repellendus, 
+                assumenda placeat architecto delectus exercitationem adipisci!
+                <a href="paginas/noticia-principal2.html">Ver mas</a>
+            </div>
+            <div class="noticia-secundaria">
+                <h1>Titulo</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae sequi deserunt ut 
+                saepe sunt possimus ab modi mollitia corporis perferendis dolor alias repellendus, 
+                assumenda placeat architecto delectus exercitationem adipisci!
+                <a href="paginas/noticia-principal2.html">Ver mas</a>
+            </div>
+        </section>
+
+        <div class="vacantes">
+            <h2>Ver Vacantes</h2>
+            <button type="submit" ><a href="vacante-principal.html">Ver clasificacion</a></button>
+        </div>
 
     </main>
 
     <!--Footer-->
     <footer>
-
+        <div>
+            <label>Noticias Team Ibagué</label>
+        </div>
     </footer>
     
 </body>
