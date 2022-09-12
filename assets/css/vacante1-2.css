@@ -1,6 +1,7 @@
 :root {
     --font-family: 'Roboto', sans-serif;
     --color-header:#1E8449;
+    --colorBlanco:#ffffff;
 
 }
 
@@ -10,3 +11,55 @@
     box-sizing:border-box;
     font-family: var(--font-family);
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:5rem;
+
+}
+/*  */
+.container .nom-vacante {
+    text-align: start;
+    font-size:2.4rem;
+    font-weight: 600;
+    line-height:1.2;
+    margin-bottom: 1rem;
+}
+
+.container .oferta .description-oferta h3{
+    font-size:1.8rem;
+    /* font-weight: 100; */
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+.container .oferta div{
+    margin-top: 2rem;
+}
+.container .oferta div ul li{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+/* form fieldset div{
+    line-height:.1;
+} */
+
+.container .formulario {
+    
+    margin:5rem;
+    padding:2rem;
+    font-weight: 200 ;
+    border:1px solid;
+}
+.container .formulario h3{
+    font-size:1.5rem;
+    font-weight:400;
+}
+
+.container .formulario input{
+    padding:.5rem;
+    width: 100%;
+}
+
