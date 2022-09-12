@@ -1,32 +1,35 @@
 :root {
     --font-family: 'Roboto', sans-serif;
     --color-header:#1E8449;
+    --background-boton: #166537; 
+    --hover-boton: #269253;
+    --tamaño-titulo: 30px;
+    --tamaño-subtitulo: 20px;
+    --tamaño-sub: 18px;
+    --tamaño-parrafo: 17px;
 }
+
+header nav {
+    background-color: var(--color-header);
+    display: flex;
+}
+
+
 body{
     font-family: var(--font-family);
     margin: 0;
     padding: 0;
 }
-header nav {
-    background-color: var(--color-header);
-    display: flex;
-}
-header nav img {
-    margin-left: 30px;
-    width: 130px;
-    height: 130px;
-}
-header nav h1 {
-    font-weight: bold;
-    margin-right: 200px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    font-size: 30px;
-}
 
-
-
+.boton button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background: var(--background-boton);
+    margin: 10px ;
+    
+}
 
 
 
