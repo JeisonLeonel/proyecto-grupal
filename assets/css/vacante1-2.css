@@ -34,7 +34,7 @@
     line-height: 1.5rem;
     margin-top: 1rem;
 }
-.container .oferta div{
+.container .oferta > div{
     margin-top: 2rem;
 }
 .container .oferta div ul li{
@@ -42,24 +42,41 @@
     margin-left: 1rem;
 }
 
-/* form fieldset div{
-    line-height:.1;
-} */
-
-.container .formulario {
-    
-    margin:5rem;
-    padding:2rem;
-    font-weight: 200 ;
+.formulario{
+    display:flex;
+    align-items:center;
+    justify-content: center;
     border:1px solid;
-}
-.container .formulario h3{
-    font-size:1.5rem;
-    font-weight:400;
+    width:50vw;
+    padding:5rem;
+    
 }
 
-.container .formulario input{
-    padding:.5rem;
-    width: 100%;
+.formulario > form{
+    justify-content:center;
 }
+input[type=text],input[type=date],input[type=email], input[type=tel]{
+    width:35vw;
+    padding:10px;
+    margin:10px 0;
+    outline: none; /*quita el contorno que trae por defecto al hacer clic*/
+}
+
+label{
+    margin-top:.5rem;
+}
+
+form > h3{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--color-header);
+    padding:3rem;
+    font-size:1.5rem;
+}
+
 
