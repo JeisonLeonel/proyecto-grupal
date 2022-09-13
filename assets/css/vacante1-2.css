@@ -16,15 +16,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:5rem;
+    margin:2rem 5rem;
 
+}
+
+.btn-regresar{
+    margin:.5rem 5rem;
+    padding:.5rem 1rem;
 }
 /*  */
 .container .nom-vacante {
     text-align: start;
     font-size:2.4rem;
     font-weight: 600;
-    line-height:1.2;
+    /* line-height:1.2; */
     margin-bottom: 1rem;
 }
 
@@ -32,7 +37,7 @@
     font-size:1.8rem;
     /* font-weight: 100; */
     line-height: 1.5rem;
-    margin-top: 1rem;
+
 }
 .container .oferta > div{
     margin-top: 2rem;
@@ -42,19 +47,17 @@
     margin-left: 1rem;
 }
 
-.formulario{
+.container .formulario{
     display:flex;
     align-items:center;
     justify-content: center;
     border:1px solid;
-    width:50vw;
-    padding:5rem;
+    padding:1rem 0rem;
     
 }
 
-.formulario > form{
-    justify-content:center;
-}
+
+
 input[type=text],input[type=date],input[type=email], input[type=tel]{
     width:35vw;
     padding:10px;
@@ -64,6 +67,12 @@ input[type=text],input[type=date],input[type=email], input[type=tel]{
 
 label{
     margin-top:.5rem;
+}
+input[type=button]{
+    padding: .3rem 1rem;
+    float: right;
+    margin-top: 2rem;
+    
 }
 
 form > h3{
