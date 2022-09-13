@@ -1,0 +1,108 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --color-header:#1E8449;
+    --background-boton: #166537; 
+    --hover-boton: #269253;
+    --tamaño-titulo: 30px;
+    --tamaño-subtitulo: 20px;
+    --tamaño-sub: 18px;
+    --tamaño-parrafo: 17px;
+    --tamaño-boton: 15px;
+    
+}
+
+header nav {
+    background-color: var(--color-header);
+    display: flex;
+}
+header nav img {
+    margin-left: 30px;
+    width: 130px;
+    height: 130px;
+}
+header nav h1 {
+    font-weight: bold;
+    margin-right: 200px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+body{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+main img{
+    display: block;
+    margin: 0px auto
+}
+main p,h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.title h1{
+    background-color: var(--color-header);
+    color: white;
+    text-align: center;
+    font-size: var(--tamaño-titulo);
+    margin-bottom: 20px;
+}
+
+
+.contenido h3{
+    font-size: var(--tamaño-subtitulo);
+}
+
+.contenido h4{
+    font-size: var(--tamaño-sub);
+}
+
+.contenido p{
+    font-size: var(--tamaño-parrafo);
+}
+
+
+.boton button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background: var(--background-boton);
+    margin: 10px ;
+    
+}
+
+.boton button:hover{
+    background: var(--hover-boton);
+}
+
+.boton button a{
+    text-decoration: none;
+    color: white;
+    font-size: var(--tamaño-boton);
+}
+
+
+
+
+
+footer {
+    background-color: var(--color-header);
+    color:black;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+footer div {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items:center ;
+}
+footer div label{
+    font-size: 30px;
+    font-weight: bold;
+}
