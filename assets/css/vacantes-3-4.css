@@ -27,8 +27,8 @@
     margin-bottom: 20px;
 }
 
-.contenido{
-    margin: 20px;
+.contenido {
+    margin: 30px;
 }
 
 .contenido ul{
@@ -37,6 +37,7 @@
 
 .contenido h2{
     font-size: var(--tamaño-vacante);
+    margin-bottom: 10px;
 }
 
 .contenido h3{
@@ -49,6 +50,90 @@
 
 .contenido p, li{
     font-size: var(--tamaño-parrafo);
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form{
+    margin: 20px;
+}
+
+.form{
+    margin-top: 20px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 7px;
+    border-width: 3px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.form h3{
+    font-size: var(--tamaño-subtitulo);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form .container{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+/* quitar flechas input number*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+.form button{
+    margin-left: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.form label{
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.espacios{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1d2023;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+
+}
+
+.form button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 110px;
+    background: var(--color-header);
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: verdana;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background: var(--hover-boton);
 }
 
 
