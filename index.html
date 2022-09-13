@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Noticias Team Ibague</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/pagina-principal.css">
     <!--Fuente-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +12,92 @@
 <body>
     <!--Header-->
     <header>
+        <nav> 
+            <img src="assets/img/img-header.png" alt="img-header">
+            <h1>Noticias Team Ibagué</h1>  
+        </nav>
+        
+        <div class="slider">
+                <scroll-conteiner class="slider-container">
+                    <scroll-page class="slider-slide" id="elemento 1">
+                        <img class="slider-image" src="assets/img/img-slider1.jpg" width="250px" height="250px"  alt="imagen1">
+                    </scroll-page>
+                    <scroll-page class="slider-slide" id="elemento 2">
+                        <img class="slider-image" src="assets/img/img-slider2.jpg" width="250px" height="250px"  alt="imagen2">
+                    </scroll-page>
+                </scroll-conteiner>
 
+                <div class="list-botones">
+                    <a class="slider-item" href="#elemento 1"></a>
+                    <a class="slider-item" href="#elemento 2"></a>
+                </div>
+        </div>        
     </header>
     <!--Contenido-->
     <main>
+        <div class="noticia">
+            <h1>¿Por qué subirá el precio de la gasolina?</h1>
+                <div> 
+                    <img src="assets/img/img-noti-principal1.jpeg" alt="img-noti-principal1">
+                    <p>
+                        El presidente Petro resalta la necesidad de subir el precio del combustible debido al déficit 
+                        de $10 billones trimestrales del fondo de estabilización. El Marco Fiscal que dejó la 
+                        administración anterior propone un alza de $400 mensuales. La ACPM no se tocaría.
+                        <a href="paginas/noticia-principal1.html">Ver más</a>
+                    </p>
+                </div>
+            </div>
+        <div class="noticia">
+            <h1>La joven detrás del primer satélite ambiental de Brasil</h1>
+                <div> 
+                    <img src="assets/img/img-noti-principal2.jpeg" alt="img-noti-principal2">
+                    <p>
+                        La joven Colombiana detrás del primer satélite ambiental de Brasil
+                        Laura Fernanda Cabrera, estudiante de la Universidad del Quindío, fue seleccionada 
+                        entre 16.000 aspirantes para hacer parte del proyecto.
+                        <a href="paginas/noticia-principal2.html">Ver más</a> 
+                    </p>
+                </div>
+        </div>
+        <section>
+            <div class="noticia-secundaria">
+                <h1>China quiere ser clave en la economía de Latinoamérica. Y 
+                    para eso está construyendo un megapuerto en Perú</h1>
+                <div> 
+                    <p>A 80 kilómetros al norte de Lima (Perú), en una localidad de sólo 63.400 habitantes, se lleva 
+                        a cabo una megaconstrucción de tamaño titánico para sorpresa de los vecinos. Se trata del 
+                        Terminal Portuario Multipropósito de Chancay, un puerto gigante destinado a ser un punto 
+                        neurálgico para los envíos a China y a toda Asia.
+                        <a href="paginas/noticia-secundaria1.html">Ver más</a> 
+                    </p>  
+                </div>
+            </div>
+            <div class="noticia-secundaria">
+                <h1>Un "arca de Noé" por el cambio climático: el loco plan de Zimbabue para trasladar a 2.500 animales</h1>
+                <div> 
+                    <p> 
+                        Justo cuando Zimbabue se estaba librando del problema de la caza furtiva a base de mano dura, otro 
+                        gran problema ha caído sobre sus cabezas. Esta vez es incontenible y también causado por la mano 
+                        humana: el cambio climático. Los cambios en el medio ambiente están causando que ciertas especies 
+                        de toda África lleguen a su extinción total. 
+                        <a href="paginas/noticia-secundaria2.html">Ver más</a>  
+                    </p> 
+                </div>
+            </div>
+        </section>
+
+        <div class="vacantes">
+            <h2>Vacantes Para Empleo</h2>
+            <button type="submit" ><a href="vacante-principal.html">Ver clasificacion</a></button>
+        </div>
 
     </main>
 
     <!--Footer-->
     <footer>
-
+        <div>
+            <label>Noticias Team Ibagué</label>
+        </div>
     </footer>
     
 </body>
