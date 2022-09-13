@@ -105,6 +105,7 @@ main h1{
 }
 main p{
     font-size: 17px;
+    text-align: justify;
 }
 main .vacantes {
     margin-left: 100px;
