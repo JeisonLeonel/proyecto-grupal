@@ -19,26 +19,6 @@
     font-family: var(--font-family);
 }
 
-.boton button{
-    width: 150px;
-    height: 40px;
-    border-radius: 50px;
-    border: none;
-    background: var(--background-boton);
-    margin: 10px ;
-    
-}
-
-.boton button:hover{
-    background: var(--hover-boton);
-}
-
-.boton button a{
-    text-decoration: none;
-    color: white;
-    font-size: var(--tamaño-boton);
-}
-
 .title h1{
     background-color: var(--color-header);
     color: white;
@@ -155,6 +135,30 @@ input[type=number] { -moz-appearance:textfield; }
 .form button:hover{
     background: var(--hover-boton);
 }
+
+
+.boton button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background: var(--background-boton);
+    margin: 10px ;
+    
+}
+
+.boton button:hover{
+    background: var(--hover-boton);
+}
+
+.boton button a{
+    text-decoration: none;
+    color: white;
+    font-size: var(--tamaño-boton);
+}
+
+
+
 
 footer {
     background-color: var(--color-header);
